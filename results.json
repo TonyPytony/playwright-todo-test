@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "reporter": [
@@ -55,7 +55,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "chromium",
         "name": "chromium",
@@ -106,7 +106,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 55,
+                      "duration": 57,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -114,7 +114,7 @@
                       "steps": [
                         {
                           "title": "Create a new post",
-                          "duration": 21
+                          "duration": 20
                         },
                         {
                           "title": "Get the created post",
@@ -122,34 +122,34 @@
                         },
                         {
                           "title": "Update the post",
-                          "duration": 7
+                          "duration": 8
                         },
                         {
                           "title": "Delete the post",
-                          "duration": 7
+                          "duration": 8
                         },
                         {
                           "title": "Verify post is deleted",
-                          "duration": 4
+                          "duration": 3
                         }
                       ],
-                      "startTime": "2025-09-14T21:16:59.810Z",
+                      "startTime": "2025-09-14T21:57:11.467Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "POST Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICI5MzhkIiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
+                          "body": "ewogICJpZCI6ICI4Nzk5IiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
                         },
                         {
                           "name": "GET Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICI5MzhkIiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
+                          "body": "ewogICJpZCI6ICI4Nzk5IiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
                         },
                         {
                           "name": "PUT Response",
                           "contentType": "application/json",
-                          "body": "ewogICJ0aXRsZSI6ICJMZWFybiBQbGF5d3JpZ2h0IFVwZGF0ZWQiLAogICJib2R5IjogIkFQSSBUZXN0aW5nIiwKICAidXNlcklkIjogMSwKICAiaWQiOiAiOTM4ZCIKfQ=="
+                          "body": "ewogICJ0aXRsZSI6ICJMZWFybiBQbGF5d3JpZ2h0IFVwZGF0ZWQiLAogICJib2R5IjogIkFQSSBUZXN0aW5nIiwKICAidXNlcklkIjogMSwKICAiaWQiOiAiODc5OSIKfQ=="
                         }
                       ]
                     }
@@ -180,7 +180,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 55,
+                      "duration": 59,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -188,7 +188,7 @@
                       "steps": [
                         {
                           "title": "Create a new post",
-                          "duration": 20
+                          "duration": 22
                         },
                         {
                           "title": "Get the created post",
@@ -200,30 +200,30 @@
                         },
                         {
                           "title": "Delete the post",
-                          "duration": 7
+                          "duration": 8
                         },
                         {
                           "title": "Verify post is deleted",
                           "duration": 3
                         }
                       ],
-                      "startTime": "2025-09-14T21:16:59.809Z",
+                      "startTime": "2025-09-14T21:57:11.464Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "POST Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICJiY2EzIiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
+                          "body": "ewogICJpZCI6ICJjMzdlIiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
                         },
                         {
                           "name": "GET Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICJiY2EzIiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
+                          "body": "ewogICJpZCI6ICJjMzdlIiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
                         },
                         {
                           "name": "PUT Response",
                           "contentType": "application/json",
-                          "body": "ewogICJ0aXRsZSI6ICJXcml0ZSBUZXN0cyBVcGRhdGVkIiwKICAiYm9keSI6ICJGdWxsc3RhY2sgUUEiLAogICJ1c2VySWQiOiAyLAogICJpZCI6ICJiY2EzIgp9"
+                          "body": "ewogICJ0aXRsZSI6ICJXcml0ZSBUZXN0cyBVcGRhdGVkIiwKICAiYm9keSI6ICJGdWxsc3RhY2sgUUEiLAogICJ1c2VySWQiOiAyLAogICJpZCI6ICJjMzdlIgp9"
                         }
                       ]
                     }
@@ -239,13 +239,67 @@
           ]
         }
       ]
+    },
+    {
+      "title": "ui\\todo.spec.ts",
+      "file": "ui/todo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "TodoMVC @ui",
+          "file": "ui/todo.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should add, complete, uncompleted, delete and validate todos @smoke",
+              "ok": true,
+              "tags": [
+                "ui",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1024,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-14T21:57:11.474Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f93204a70820d519c4ba-52767388bea9784ab9da",
+              "file": "ui/todo.spec.ts",
+              "line": 5,
+              "column": 9
+            }
+          ]
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-14T21:16:59.395Z",
-    "duration": 487.167,
-    "expected": 2,
+    "startTime": "2025-09-14T21:57:11.054Z",
+    "duration": 1664.393,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
