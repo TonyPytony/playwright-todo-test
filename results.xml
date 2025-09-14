@@ -1,8 +1,12 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="0.48716699999999996">
-<testsuite name="api\posts.spec.ts" timestamp="2025-09-14T21:16:59.415Z" hostname="chromium" tests="2" failures="0" skipped="0" time="0.11" errors="0">
-<testcase name="Posts API CRUD Flow @api › CRUD flow for post: &quot;Learn Playwright&quot;" classname="api\posts.spec.ts" time="0.055">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="1.664393">
+<testsuite name="api\posts.spec.ts" timestamp="2025-09-14T21:57:11.074Z" hostname="chromium" tests="2" failures="0" skipped="0" time="0.116" errors="0">
+<testcase name="Posts API CRUD Flow @api › CRUD flow for post: &quot;Learn Playwright&quot;" classname="api\posts.spec.ts" time="0.057">
 </testcase>
-<testcase name="Posts API CRUD Flow @api › CRUD flow for post: &quot;Write Tests&quot;" classname="api\posts.spec.ts" time="0.055">
+<testcase name="Posts API CRUD Flow @api › CRUD flow for post: &quot;Write Tests&quot;" classname="api\posts.spec.ts" time="0.059">
+</testcase>
+</testsuite>
+<testsuite name="ui\todo.spec.ts" timestamp="2025-09-14T21:57:11.074Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.024" errors="0">
+<testcase name="TodoMVC @ui › should add, complete, uncompleted, delete and validate todos @smoke" classname="ui\todo.spec.ts" time="1.024">
 </testcase>
 </testsuite>
 </testsuites>

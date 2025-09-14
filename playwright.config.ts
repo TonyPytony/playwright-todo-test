@@ -14,7 +14,7 @@ export default defineConfig({
         ['allure-playwright', { outputFolder: 'allure-results' }]
     ],
     use: {
-        headless: false,              // бачимо браузер
+        headless: true,              // бачимо браузер
         baseURL: 'https://demo.playwright.dev/todomvc/', // базовий URL для page.goto('/')
         trace: 'retain-on-failure',   // трейс при падінні
         screenshot: 'only-on-failure',
