@@ -1,0 +1,8 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="0.48716699999999996">
+<testsuite name="api\posts.spec.ts" timestamp="2025-09-14T21:16:59.415Z" hostname="chromium" tests="2" failures="0" skipped="0" time="0.11" errors="0">
+<testcase name="Posts API CRUD Flow @api › CRUD flow for post: &quot;Learn Playwright&quot;" classname="api\posts.spec.ts" time="0.055">
+</testcase>
+<testcase name="Posts API CRUD Flow @api › CRUD flow for post: &quot;Write Tests&quot;" classname="api\posts.spec.ts" time="0.055">
+</testcase>
+</testsuite>
+</testsuites>

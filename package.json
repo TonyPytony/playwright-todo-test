@@ -1,0 +1,22 @@
+{
+  "name": "playwright-todo-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "api": "json-server --watch db.json --port 3000",
+    "allure:generate": "npx allure generate allure-results -o allure-report",
+    "allure:open": "npx allure open allure-report",
+    "test:allure": "npm run test && npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [],
+  "author": "Tony Pytony",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "allure-playwright": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
