@@ -1,0 +1,61 @@
+name: CI Playwright Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser: [chromium, firefox, webkit]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Install JSON Server
+        run: npm install -g json-server
+
+      - name: Start JSON Server
+        run: |
+          echo '{"posts": []}' > db.json
+          json-server --watch db.json --port 3000 &
+          sleep 5  # даємо серверу час стартанути
+
+      - name: Wait for JSON Server to be ready
+        run: |
+          for i in {1..30}; do
+            nc -z localhost 3000 && echo "JSON Server ready" && break
+            echo "Waiting 1s..."
+            sleep 1
+          done
+
+      - name: Run Playwright tests
+        env:
+          BASE_URL: http://localhost:3000
+          CI: true
+        run: npx playwright test tests --project=${{ matrix.browser }} --reporter=allure-playwright
+
+      - name: Generate Allure report
+        run: npx allure generate allure-results --clean
+
+      - name: Upload Allure Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: ./allure-results
