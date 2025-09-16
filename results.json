@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 5
     },
     "preserveOutput": "always",
     "reporter": [
@@ -55,7 +55,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 5
         },
         "id": "chromium",
         "name": "chromium",
@@ -106,7 +106,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 57,
+                      "duration": 78,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -114,42 +114,42 @@
                       "steps": [
                         {
                           "title": "Create a new post",
-                          "duration": 20
+                          "duration": 27
                         },
                         {
                           "title": "Get the created post",
-                          "duration": 6
+                          "duration": 8
                         },
                         {
                           "title": "Update the post",
-                          "duration": 8
+                          "duration": 11
                         },
                         {
                           "title": "Delete the post",
-                          "duration": 8
+                          "duration": 11
                         },
                         {
                           "title": "Verify post is deleted",
-                          "duration": 3
+                          "duration": 6
                         }
                       ],
-                      "startTime": "2025-09-14T21:57:11.467Z",
+                      "startTime": "2025-09-16T00:57:21.240Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "POST Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICI4Nzk5IiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
+                          "body": "ewogICJpZCI6ICI3YjQzIiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
                         },
                         {
                           "name": "GET Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICI4Nzk5IiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
+                          "body": "ewogICJpZCI6ICI3YjQzIiwKICAidGl0bGUiOiAiTGVhcm4gUGxheXdyaWdodCIsCiAgImJvZHkiOiAiQVBJIFRlc3RpbmciLAogICJ1c2VySWQiOiAxCn0="
                         },
                         {
                           "name": "PUT Response",
                           "contentType": "application/json",
-                          "body": "ewogICJ0aXRsZSI6ICJMZWFybiBQbGF5d3JpZ2h0IFVwZGF0ZWQiLAogICJib2R5IjogIkFQSSBUZXN0aW5nIiwKICAidXNlcklkIjogMSwKICAiaWQiOiAiODc5OSIKfQ=="
+                          "body": "ewogICJ0aXRsZSI6ICJMZWFybiBQbGF5d3JpZ2h0IFVwZGF0ZWQiLAogICJib2R5IjogIkFQSSBUZXN0aW5nIiwKICAidXNlcklkIjogMSwKICAiaWQiOiAiN2I0MyIKfQ=="
                         }
                       ]
                     }
@@ -180,7 +180,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 59,
+                      "duration": 89,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -188,42 +188,42 @@
                       "steps": [
                         {
                           "title": "Create a new post",
-                          "duration": 22
+                          "duration": 26
                         },
                         {
                           "title": "Get the created post",
-                          "duration": 6
-                        },
-                        {
-                          "title": "Update the post",
-                          "duration": 7
-                        },
-                        {
-                          "title": "Delete the post",
                           "duration": 8
                         },
                         {
+                          "title": "Update the post",
+                          "duration": 12
+                        },
+                        {
+                          "title": "Delete the post",
+                          "duration": 11
+                        },
+                        {
                           "title": "Verify post is deleted",
-                          "duration": 3
+                          "duration": 5
                         }
                       ],
-                      "startTime": "2025-09-14T21:57:11.464Z",
+                      "startTime": "2025-09-16T00:57:21.252Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "POST Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICJjMzdlIiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
+                          "body": "ewogICJpZCI6ICJhZTY1IiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
                         },
                         {
                           "name": "GET Response",
                           "contentType": "application/json",
-                          "body": "ewogICJpZCI6ICJjMzdlIiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
+                          "body": "ewogICJpZCI6ICJhZTY1IiwKICAidGl0bGUiOiAiV3JpdGUgVGVzdHMiLAogICJib2R5IjogIkZ1bGxzdGFjayBRQSIsCiAgInVzZXJJZCI6IDIKfQ=="
                         },
                         {
                           "name": "PUT Response",
                           "contentType": "application/json",
-                          "body": "ewogICJ0aXRsZSI6ICJXcml0ZSBUZXN0cyBVcGRhdGVkIiwKICAiYm9keSI6ICJGdWxsc3RhY2sgUUEiLAogICJ1c2VySWQiOiAyLAogICJpZCI6ICJjMzdlIgp9"
+                          "body": "ewogICJ0aXRsZSI6ICJXcml0ZSBUZXN0cyBVcGRhdGVkIiwKICAiYm9keSI6ICJGdWxsc3RhY2sgUUEiLAogICJ1c2VySWQiOiAyLAogICJpZCI6ICJhZTY1Igp9"
                         }
                       ]
                     }
@@ -254,11 +254,11 @@
           "column": 6,
           "specs": [
             {
-              "title": "should add, complete, uncompleted, delete and validate todos @smoke",
+              "title": "@regression should add a single todo: Learn Playwright",
               "ok": true,
               "tags": [
                 "ui",
-                "smoke"
+                "regression"
               ],
               "tests": [
                 {
@@ -272,12 +272,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1024,
+                      "duration": 503,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-09-14T21:57:11.474Z",
+                      "startTime": "2025-09-16T00:57:21.241Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -285,10 +285,84 @@
                   "status": "expected"
                 }
               ],
-              "id": "f93204a70820d519c4ba-52767388bea9784ab9da",
+              "id": "f93204a70820d519c4ba-cbc5f977c8daa918ca93",
               "file": "ui/todo.spec.ts",
-              "line": 5,
-              "column": 9
+              "line": 25,
+              "column": 13
+            },
+            {
+              "title": "@regression should add a single todo: Write Tests",
+              "ok": true,
+              "tags": [
+                "ui",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 465,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-16T00:57:21.250Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f93204a70820d519c4ba-d0d80c5932c796c530e2",
+              "file": "ui/todo.spec.ts",
+              "line": 25,
+              "column": 13
+            },
+            {
+              "title": "@regression should add a single todo: Run Tests",
+              "ok": true,
+              "tags": [
+                "ui",
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 465,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-16T00:57:21.251Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f93204a70820d519c4ba-954ff3c036262e61479c",
+              "file": "ui/todo.spec.ts",
+              "line": 25,
+              "column": 13
             }
           ]
         }
@@ -297,9 +371,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-14T21:57:11.054Z",
-    "duration": 1664.393,
-    "expected": 3,
+    "startTime": "2025-09-16T00:57:20.812Z",
+    "duration": 1013.595,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

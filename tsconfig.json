@@ -5,7 +5,9 @@
     "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["tests/**/*.ts"]
+  "include": ["tests/**/*.ts", "data/**/*.ts", "data/**/*.json"]
 }
